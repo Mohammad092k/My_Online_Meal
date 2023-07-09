@@ -1,0 +1,206 @@
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* CSS Variables */
+  :root {
+    --navbar-height: 59px;
+  }
+  
+  /* Navbar */
+  #navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    height: var(--navbar-height);
+  }
+  
+  #logo img {
+    height: 61px;
+    width: 44px;
+  }
+  
+  #navbar ul {
+    display: flex;
+  }
+  
+  #navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Home Section */
+  #home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background: url('assets/Image1.jpg') no-repeat center center/cover;
+    color: #fff;
+    font-family: 'Libre Baskerville', 'Lora', 'Poppins', 'Sono', serif;
+  }
+  
+  #home h1 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  
+  .btn {
+    padding: 10px 30px;
+    background-color: brown;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #4c2c29;
+  }
+  
+  /* Services Section */
+  #services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  #services .box {
+    flex-basis: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 28px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #services .box img {
+    height: 140px;
+    margin-bottom: 20px;
+  }
+  
+  /* Clients Section */
+  #client-section {
+    position: relative;
+    background: url('assets/Image2.jpg') no-repeat center center/cover;
+    padding: 50px;
+    color: #fff;
+  }
+  
+  #clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .client-item {
+    padding: 20px;
+  }
+  
+  #clients img {
+    height: 124px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    position: relative;
+    background: url('assets/contact-us.jpg') no-repeat center center/cover;
+    padding: 50px;
+    color: #fff;
+  }
+  
+  #contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #contact-box form {
+    width: 50%;
+  }
+  
+  #contact-box input,
+  #contact-box textarea {
+    width: 100%;
+    padding: 10px;
+  
+  
+ 
+    border-radius: 9px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  #contact-box label {
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+    margin-bottom: 5px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  /* Utility classes */
+  .h-primary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    padding: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
